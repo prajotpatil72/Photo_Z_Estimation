@@ -13,7 +13,7 @@ This project applies convolutional neural networks for photometric redshift (pho
 photometric-redshift-cnn/
 ├── sd2.ipynb              # CNN training notebook using 2σ clipped redshift dataset
 ├── whole.ipynb            # CNN training notebook on full merged dataset
-├── AIMLGroup22_Paper.pdf  # Research paper detailing methodology and results
+├── Photoz.pdf  # Research paper detailing methodology and results
 ├── modelSD2.h5            # Trained model on clipped dataset
 ├── redshift_model.h5      # Trained model on full dataset
 └── README.md              # This file
