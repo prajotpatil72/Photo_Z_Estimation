@@ -9,7 +9,7 @@ A deep learning-based pipeline to estimate photometric redshifts of galaxies dir
 This project applies convolutional neural networks for photometric redshift (photo-z) estimation from 32×32×5 galaxy image cubes captured in SDSS’s u, g, r, i, z photometric bands. The model performs regression to predict redshift values using end-to-end deep learning.
 
 ## Repository Structure
-
+```
 photometric-redshift-cnn/
 ├── sd2.ipynb              # CNN training notebook using 2σ clipped redshift dataset
 ├── whole.ipynb            # CNN training notebook on full merged dataset
@@ -17,8 +17,7 @@ photometric-redshift-cnn/
 ├── modelSD2.h5            # Trained model on clipped dataset
 ├── redshift_model.h5      # Trained model on full dataset
 └── README.md              # This file
-
-
+```
 ## Dataset
 
 - **Source:** Sloan Digital Sky Survey (SDSS) DR12 via NERSC  
